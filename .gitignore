@@ -1,7 +1,18 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-/node_modules
+/platforms/
+/android/
+/ios/
+
+/plugins/
+/platforms/android/app/build/
+/platforms/ios/Pods/
+/platforms/ios/build/
+/platforms/ios/*.xcodeproj/
+/platforms/ios/*.xcworkspace/
+
+node_modules
+
 /.pnp
 .pnp.js
 .yarn/install-state.gz
@@ -11,7 +22,7 @@
 
 # next.js
 /.next/
-/out/
+/dist/
 
 # production
 /build
