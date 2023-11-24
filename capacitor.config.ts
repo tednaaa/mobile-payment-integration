@@ -10,8 +10,6 @@ const config: CapacitorConfig = {
   webDir: "dist",
   server: {
     androidScheme: "https",
-    url: `http://${process.env.PRIVATE_IP}:3000`,
-    cleartext: true,
   },
 };
 
