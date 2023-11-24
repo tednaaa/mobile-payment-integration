@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:sync": "next build && npx cap sync",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier . --write --ignore-path .gitignore"
