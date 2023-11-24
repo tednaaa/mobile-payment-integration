@@ -7,13 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier . --write --ignore-path .gitignore",
-    "dev:native": "next dev -H 0.0.0.0"
+    "format": "prettier . --write --ignore-path .gitignore"
   },
   "dependencies": {
     "@capacitor/android": "^5.5.1",
     "@capacitor/core": "^5.5.1",
     "@capacitor/ios": "^5.5.1",
+    "@fresha/capacitor-plugin-applepay": "^4.0.0",
+    "@fresha/capacitor-plugin-googlepay": "^1.0.1",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18"
